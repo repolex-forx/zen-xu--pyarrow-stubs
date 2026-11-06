@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/zen-xu/pyarrow-stubs/commit/d92217fe71ff56e86c0125175b488b0d486a3a3e",
       "git:hexsha": "d92217fe71ff56e86c0125175b488b0d486a3a3e",
-      "repolex:parseStatus": "ast_complete",
-      "git:tagName": "20.0.0.20260819"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "20.0.0.20260819",
+      "repolex:parsedAt": "2026-11-06T03:37:41.539994+00:00"
     },
     {
       "@id": "https://repolex.ai/r/zen-xu/pyarrow-stubs/commit/eca9a4b3d2ec6e70ec62b10575787025d475ce69",
