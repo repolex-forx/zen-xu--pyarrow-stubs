@@ -36,16 +36,23 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 .
 ├── aggregate
 │   ├── ast
-│   │   └── d92217fe71ff56e86c0125175b488b0d486a3a3e
+│   │   ├── d92217fe71ff56e86c0125175b488b0d486a3a3e
+│   │   │   └── chunk-001.nq.gz
+│   │   └── f3c148a1169d0210c73bbba40fea9a1728cbf62f
 │   │       └── chunk-001.nq.gz
+│   ├── lsp
+│   │   └── f3c148a1169d0210c73bbba40fea9a1728cbf62f.nq.gz
 │   └── repolex
-│       └── d92217fe71ff56e86c0125175b488b0d486a3a3e
+│       ├── d92217fe71ff56e86c0125175b488b0d486a3a3e
+│       │   └── chunk-001.nq.gz
+│       └── f3c148a1169d0210c73bbba40fea9a1728cbf62f
 │           └── chunk-001.nq.gz
 ├── blob
 │   ├── 021f2b8ce7fd6ec99ca73a390348b2042da07349.nq.gz
 │   ├── 048973301dc9e7333c40da9e4093ed759002654f.nq.gz
 │   ├── 0cb4f6171d3e3eab8cc3b225e2f91ca4afc9b996.nq.gz
 │   ├── 0e80fae4ebffb1cf402fe3b1276819b8941dd847.nq.gz
+│   ├── 14536098ea4ac44ab1c9e5b497295d98b7f91269.nq.gz
 │   ├── 166e10c9734a4e1ed9fa998d4b3c035f11e9293d.nq.gz
 │   ├── 1698b55520b35a77543e09c545a3810128db84f0.nq.gz
 │   ├── 200f669379b1884658cbf3dd728072fbe74f2212.nq.gz
@@ -64,6 +71,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── 4fc7ea68e48e11638ed96ea2328809cbcb608cdb.nq.gz
 │   ├── 510229d7e728f3b2c1bb3933d92bed78351889ea.nq.gz
 │   ├── 526a58926a99494705b88505797a20b16afc425b.nq.gz
+│   ├── 56b2c8447d9ab946f551e94bd0ccc52775f9dc5d.nq.gz
 │   ├── 57a3bb4f1b399ea7303d06f0c1fa57d0a88d9be5.nq.gz
 │   ├── 5a77dae7ef7c902a3bc5ca7be7ca399e17a62968.nq.gz
 │   ├── 66981bf0f51880eca37f74385585c09e52b28c19.nq.gz
@@ -96,6 +104,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── ae667be453e879922dc813265bb76f8348613dc4.nq.gz
 │   ├── b04b6268975b533e31411b305d74b7e6622f1e4f.nq.gz
 │   ├── b3ce8b804282f71e2f8fc273c34dd111a4ef94aa.nq.gz
+│   ├── b48bb9bf6794afb3817f2259c753fd8702b5ee0f.nq.gz
+│   ├── ba705b29a1a61bf48aef119768a39a70f3bd5984.nq.gz
 │   ├── c259513f1ea5fc0a4b06c1edd29abecd6c69d183.nq.gz
 │   ├── c2ecf7d6b61be9559aa0c83276a5dd8c20528d98.nq.gz
 │   ├── c707edb844a4986d078a070120ab580ca7815f01.nq.gz
@@ -104,6 +114,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── d849abd0f1f40c269646102e5dc3a6521b606951.nq.gz
 │   ├── d882fd79d573a389dd4cad760c322e71f92ed510.nq.gz
 │   ├── db1d35e0b8b4802468cbd0c8683ce9fceeca7a1c.nq.gz
+│   ├── e003d522c4be8d09829940177359c2a6ef5c3b20.nq.gz
 │   ├── e11baf7d4e72268da861b0a44e4c390e72d5580e.nq.gz
 │   ├── e2e238e5073d09a361e2e85a1eb476aec2664e8a.nq.gz
 │   ├── e3f1b4ea3b2bea3feca0517a88aab88f5ab17191.nq.gz
@@ -111,16 +122,21 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz
 │   ├── e78fdc9b020e3f4b3080fc6a8c5f9362c0b69351.nq.gz
 │   ├── ec40186f30d555f2d791d766fd7dd5c2143595a2.nq.gz
+│   ├── ed3b49974c21918d371ab616024201701f89c9ce.nq.gz
 │   ├── efbd05ac2fe9a2860aab09d53f9306e886568354.nq.gz
 │   ├── fc13c498bd96e4be86d5e460dbdbb50b61981f68.nq.gz
+│   ├── fce1104fb4f91a8a3d824b97a18973189a1a9cd5.nq.gz
 │   ├── fd680cbde2520405912a6575222a55c071ca3f62.nq.gz
 │   └── ff226e9521baed15cbf2aef3da7214f1a4452c6e.nq.gz
 ├── branch
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── f3c148a1169d0210c73bbba40fea9a1728cbf62f.nq.gz
 ├── filetree
-│   └── d92217fe71ff56e86c0125175b488b0d486a3a3e.nq.gz
+│   ├── d92217fe71ff56e86c0125175b488b0d486a3a3e.nq.gz
+│   └── f3c148a1169d0210c73bbba40fea9a1728cbf62f.nq.gz
 ├── issue
 │   └── issue.nq.gz
 ├── pr
@@ -128,7 +144,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-13 directories, 81 files
+17 directories, 93 files
 ```
 
 | Directory | What it contains |
@@ -149,4 +165,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [zen-xu/pyarrow-stubs](https://github.com/zen-xu/pyarrow-stubs)
 
 ---
-*Parsed on 2026-11-06 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-22 by [repolex](https://repolex.ai)*
