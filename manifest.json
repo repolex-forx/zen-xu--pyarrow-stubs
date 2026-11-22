@@ -177,6 +177,67 @@
       ],
       "ast": [
         "aggregate/ast/f3c148a1169d0210c73bbba40fea9a1728cbf62f/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/f3c148a1169d0210c73bbba40fea9a1728cbf62f.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "pyarrow",
+          "ecosystem": "PYPI",
+          "version": "20",
+          "githubOrg": "apache",
+          "githubRepo": "arrow",
+          "githubUrl": "https://github.com/apache/arrow",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "typing-extensions",
+          "ecosystem": "PYPI",
+          "version": "4.16.0",
+          "githubOrg": "python",
+          "githubRepo": "typing_extensions",
+          "githubCommit": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+          "githubTag": "4.16.0",
+          "githubUrl": "https://github.com/python/typing_extensions",
+          "source": "lsp",
+          "raw_name": "typing_extensions.py",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/typing_extensions.py"
+        },
+        {
+          "packageName": "numpy",
+          "ecosystem": "PYPI",
+          "version": "2.5.5",
+          "githubOrg": "numpy",
+          "githubRepo": "numpy",
+          "githubCommit": "afcbc6d21a88a7b59c5bfe115198e24ed51b3dae",
+          "githubTag": "v2.5.5",
+          "githubUrl": "https://github.com/numpy/numpy",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/numpy/__init__.py"
+        },
+        {
+          "packageName": "fsspec",
+          "ecosystem": "PYPI",
+          "version": "2026.9.0",
+          "githubOrg": "fsspec",
+          "githubRepo": "filesystem_spec",
+          "githubCommit": "0f76baaae4a227b085b18e8469e6cc1792a95ade",
+          "githubTag": "2026.9.0",
+          "githubUrl": "https://github.com/fsspec/filesystem_spec",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/fsspec/__init__.py"
+        },
+        {
+          "packageName": "scipy",
+          "ecosystem": "PYPI",
+          "version": "1.18.1",
+          "githubOrg": "scipy",
+          "githubRepo": "scipy",
+          "githubCommit": "e4e854eaa8f18d807cd3496028e257e36caa93cc",
+          "githubTag": "v1.18.1",
+          "githubUrl": "https://github.com/scipy/scipy",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/scipy/__init__.py"
+        }
       ]
     }
   ],
